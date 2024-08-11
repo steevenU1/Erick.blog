@@ -94,7 +94,7 @@ nav .profile-link a{
     border-bottom: 1px solid black;
 }
 
-main{
+.home-main{
     width: 100%;
     height: 100vh;
     display: grid;
@@ -107,20 +107,20 @@ main{
     background-size: cover;
 }
 
-main .main-title-container{
+.home-main .main-title-container{
     display: grid;
     
     align-content: center;
     justify-content: center;
 }
 
-main .main-title-container h1{
+.home-main .main-title-container h1{
     font-size: 3.5rem;
     color: #fff;
     font-family: 'Roboto mono', monospace;
 }
 
-main .main-button-container button{
+.home-main .main-button-container button{
     width: 100px;
     height: 40px;
     border: 1px solid white;
@@ -149,8 +149,8 @@ main .main-button-container button{
 }
 
 .blogs-news-img-container img{
-    width: 85%;
-    height: 60%;
+    width: 80%;
+    
 }
 
 .blogs-news-info-container{
@@ -169,4 +169,45 @@ main .main-button-container button{
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.blogs-button{
+    border: 1px solid var(--primary-color);
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+.blogs-button:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: #48CFAD;
+}
+
+.blogs-post-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 32%;
+    margin-bottom: 50px;
+}
+
+.blogs-post-container .post-container p{
+    margin-bottom: 35px;
+}
+
+.blogs-post-container .post-container img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid var(--primary-color);
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin-top: 15px;
+    
 }
